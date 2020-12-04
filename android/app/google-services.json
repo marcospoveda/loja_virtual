@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "519201486849",
+    "firebase_url": "https://lojaflutter-b5b45.firebaseio.com",
+    "project_id": "lojaflutter-b5b45",
+    "storage_bucket": "lojaflutter-b5b45.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519201486849:android:4de21dc2a2829bcb6d2800",
+        "android_client_info": {
+          "package_name": "br.com.poveda.loja_virtual"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "519201486849-ki66emncig1vqem5alt7fb9dq56rhejr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.poveda.loja_virtual",
+            "certificate_hash": "19a446a809907f0b3ef3025b69f0c24a6a6e2893"
+          }
+        },
+        {
+          "client_id": "519201486849-ii685go3okafsevopmqcsr9uvp10mdj2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhKTf7zh1E-c8erNNxqCsGqRNhYGhrzFs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "519201486849-ii685go3okafsevopmqcsr9uvp10mdj2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
