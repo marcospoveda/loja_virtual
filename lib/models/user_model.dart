@@ -11,6 +11,8 @@ class UserModel extends Model {
   Map<String, dynamic> userData = Map();
   bool isLoading = false;
 
+  static UserModel of(BuildContext context) =>
+      ScopedModel.of<UserModel>(context);
 
   @override
   void addListener(VoidCallback listener) {
@@ -74,7 +76,9 @@ class UserModel extends Model {
       });
   }
 
-  void recoveryPass() {}
+  void recoveryPass(String email) {
+    _auth.sendPasswordResetEmail(email: email);
+  }
 
   bool isLoggedIn() {
     return firebaseUser != null;
